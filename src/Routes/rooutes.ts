@@ -5,7 +5,7 @@ const router = Router();
 
 
 router.get('/painel', (req: Request, res:Response)=>{
-    res.send('home do painel')
+        res.send('kasnaksn');
 });
 
 router.get('/noticias', (req:Request, res:Response)=>{

@@ -4,8 +4,7 @@ import {Router , Request, Response, request, response} from 'express';
 const router = Router();
 
 router.get('/', (req:Request, res: Response)=>{
-    res.send('Página home');
-
+        res.render('home')
 });
 
 
